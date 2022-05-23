@@ -17,7 +17,7 @@ extend({UnrealBloomPass, GlitchPass, FilmPass})
 
 const TV = () => {
   
-  const {nodes} = useGLTF('tv.gltf')
+  const {nodes} = useGLTF('./tv.gltf')
   
   const [video] = useState(() => {
     const vid = document.createElement("video")
